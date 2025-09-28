@@ -1,0 +1,63 @@
+njsilver/            ← (repo name)
+ ├── index.html      ← main file (must be named index.html)
+ ├── NJ_logo.png     ← your logo
+ └── catalog_qr.png  ← QR code image
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NJ Silver - Authentic Wholesaler of Gold & Silver Ornaments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #222; }
+    header { background: #523452; color: #fff; padding: 30px 20px 10px 20px; text-align: center; }
+    .logo { margin: 20px auto; max-width: 160px; }
+    .tagline { font-size: 1.2em; margin-bottom: 10px; font-weight: bold; }
+    section { background: #fff; margin: 20px auto; padding: 20px; max-width: 650px; border-radius: 8px; box-shadow: 0 2px 6px rgba(100,80,120,0.1); }
+    .contacts { display: flex; flex-wrap: wrap; justify-content: space-between; }
+    .contact-card { width: 48%; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    .contact-card h3 { margin: 0 0 2px 0; font-weight: bold; }
+    .qr-section { text-align: center; margin-top: 20px; }
+    .qr-img { width: 125px; height: auto; }
+    address { font-style: normal; line-height: 1.8; margin-top: 15px; }
+    .city-list { text-align: center; font-size: 1.01em; margin-top: 10px; }
+    footer { background: #eee; color: #333; padding: 12px; text-align: center; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="NJ_logo.png" alt="NJ Silver Logo" class="logo"/>
+    <div class="tagline">Where Quality Shines Bright</div>
+    <h1>Authentic Wholesaler of Gold & Silver Ornaments</h1>
+  </header>
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contacts">
+      <div class="contact-card">
+        <h3>Jignesh Shah</h3>
+        <p>Phone: +91 83204 91115</p>
+      </div>
+      <div class="contact-card">
+        <h3>Rakshit Shah</h3>
+        <p>Phone: +91 92652 30274</p>
+      </div>
+    </div>
+    <div>
+      <strong>Email:</strong> <a href="mailto:navkarjewels100@gmail.com">navkarjewels100@gmail.com</a>
+    </div>
+    <address>
+      A-404, Rajyash Regius, Bopal, Ahmedabad, Gujarat
+    </address>
+    <div class="city-list">
+      Surendranagar | Ahmedabad
+    </div>
+    <div class="qr-section">
+      <p><strong>Scan for Catalog</strong></p>
+      <img src="catalog_qr.png" alt="Scan for Catalog" class="qr-img"/>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 NJ Silver. All rights reserved.
+  </footer>
+</body>
+</html>
